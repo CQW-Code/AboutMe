@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<!-- Contact me form page for About Me page -->
+<html lang= "en">
+
+<html>
+  <head>
+      <meta charset = "utf-8">
+    
+      <title> 
+         Contact Me
+    </title>
+    <link rel = "stylesheet" href = "main.css">
+    </head>
+<body>
+    <header class="banner">
+    
+        <nav class="nav">
+            <a href = "index.html">Home</a>
+            <a href = "hobbies.html">Hobbies & Interests</a>
+            <a href = "experience.html">Experience</a>
+            <a href = "contactform.html">Contact Me</a>
+        </nav>
+        <h1>Contact Me form</h1>
+    </header>  
+
+    <form class="col-1-3" action="#" method= "post">
+       <fieldset class="sender-info"> 
+        <label>First Name: </label>
+        <input type="text" name="firstName" id="firstName">
+        <label>Last Name: </label>
+        <input type="text" name="lastName" id="lastName">
+         <br>  
+        <label>Email Address: </label> 
+            <input type="email" name="Email address" placeholder="email@domain.com">
+       <br>
+       <!-- comment/message section-->
+       <fieldset class="comments">
+        <label>Add a message:</label>
+           <textarea name="comments">Add your message here</textarea>
+        </fieldset>
+           <br>
+        <!--radio buttons choices-->
+
+        <fieldset class="reasons">
+         <legend>Reason for contacting me: </legend>   
+        <label>
+            <input type="radio" name="reason" value= "Resume inquiry" checked> Resume Inquiry
+        </label>
+        <label>
+            <input type= "radio" name="reason" value="General inquiry">General Inquiry
+        </label>
+        <label>
+            <input type= "radio" name="reason" value="other">Other
+        </label>
+        <br>
+       </fieldset> 
+       <br>
+    </fieldset>
+           <input class="btn btn-default" type="submit" name="send" value= "Contact Me">
+       
+
+    </form>
+
+    <footer class="footer-end">
+        
+        </footer>
+
+</body>
+</html>
